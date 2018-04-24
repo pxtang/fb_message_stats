@@ -29,7 +29,7 @@ def get_text_stats(type, counts, total_len):
     mean_counts = statistics.mean(counts)
     return dedent("""\
     {0}:
-    Total characters: {1}
+    Total {0}: {1}
     Mean: {2:0.3f}
     Median: {3}
     Mode: {4}
